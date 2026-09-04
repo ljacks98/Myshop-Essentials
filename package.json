@@ -1,0 +1,12 @@
+{
+  "name": "amway-instagram-shop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Product catalog site with Stripe embedded checkout, deployable on Vercel, feeding an Instagram/Facebook Shopping product feed.",
+  "scripts": {
+    "build:data": "node scripts/build.js"
+  },
+  "dependencies": {
+    "stripe": "^17.5.0"
+  }
+}
