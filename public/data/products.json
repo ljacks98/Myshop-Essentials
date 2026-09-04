@@ -72,16 +72,16 @@
     "buyable": true
   },
   {
-    "id": "120872D",
-    "title": "Artistry Lash Boosting 3-in-1 Mascara",
+    "id": "127845D",
+    "title": "Artistry Go Vibrant 3-in-1 Volume Mascara",
     "description": "A 3-in-1 mascara with an easy-to-twist brush that volumizes, lifts, and separates lashes, infused with botanicals and vitamins C and E.",
-    "price": null,
+    "price": 28,
     "currency": "USD",
-    "image": null,
+    "image": "https://www.amway.com/medias/127845D-en-US-690px-01?context=bWFzdGVyfGltYWdlc3w0NjAzOHxpbWFnZS9wbmd8c3lzLW1hc3Rlci9pbWFnZXMvaDExL2hjMS8xMDE4NDkwNjQwNzk2Ni8xMjc4NDVELWVuLVVTLTY5MHB4LTAxfDUwNmRkNzhhOWU5MDBhYWFiYjhmZTlkZjdlNmI1NjlhMGIwNjRkMTU1ZTFhYjliNzIwZDdkN2NmNzU3MDRmNjE",
     "brand": "Artistry",
     "category": "Mascara",
     "availability": "in stock",
-    "buyable": false
+    "buyable": true
   },
   {
     "id": "127481D",

@@ -64,6 +64,7 @@ function csvEscape(value) {
 
 const rows = [headers.join(",")];
 let skipped = [];
+
 for (const p of catalog) {
   if (p.needsReview || p.price == null || !p.image) {
     skipped.push(`${p.id} — ${p.title}`);

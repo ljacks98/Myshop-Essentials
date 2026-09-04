@@ -1,12 +1,12 @@
 {
-  "name": "myshop-essentials",
-  "private": true,
+  "name": "amway-instagram-shop",
   "version": "1.0.0",
-  "description": "Storefront: product grid, individual product pages, and Stripe Embedded Checkout. Also generates the Instagram/Facebook product feed for Meta Commerce Manager.",
+  "private": true,
+  "description": "Product catalog site with Stripe embedded checkout, deployable on Vercel, feeding an Instagram/Facebook Shopping product feed.",
   "scripts": {
-    "build": "node scripts/build.js"
+    "build:data": "node scripts/build.js"
   },
   "dependencies": {
-    "stripe": "^17.3.1"
+    "stripe": "^17.5.0"
   }
 }

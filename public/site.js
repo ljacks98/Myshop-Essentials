@@ -31,77 +31,79 @@ function getQueryParam(name) {
 }
 
 // ---------------------------------------------------------------------
-// Cart (persisted in localStorage so it survives reloads / navigating
-// between pages, and so checkout reflects exactly what was added).
-// Shape: [{ id: "127070", qty: 2 }, ...]
+// Shopping cart — stored in this browser's localStorage as
+// [{ id, quantity }, ...]. Per-visitor, per-browser only (that's normal
+// for a client-side cart on a static site); nothing is sent anywhere
+// until checkout.
 // ---------------------------------------------------------------------
-const CART_KEY = "cart_v1";
+const CART_KEY = "cart";
 
 function getCart() {
   try {
     const raw = localStorage.getItem(CART_KEY);
-    const parsed = raw ? JSON.parse(raw) : [];
-    return Array.isArray(parsed) ? parsed : [];
-  } catch {
-    // localStorage unavailable (private browsing, disabled storage, etc.)
+    const cart = raw ? JSON.parse(raw) : [];
+    return Array.isArray(cart) ? cart : [];
+  } catch (e) {
     return [];
   }
 }
 
-function setCart(items) {
+function saveCart(cart) {
   try {
-    localStorage.setItem(CART_KEY, JSON.stringify(items));
-  } catch {
-    // Cart just won't persist across reloads if storage isn't available.
+    localStorage.setItem(CART_KEY, JSON.stringify(cart));
+  } catch (e) {
+    // localStorage unavailable (private browsing, etc.) — cart just won't persist.
   }
-  renderCartBadge();
+  updateCartBadge();
 }
 
-function cartCount(cart = getCart()) {
-  return cart.reduce((sum, item) => sum + (item.qty || 0), 0);
-}
-
-function addToCart(id, qty = 1) {
+function addToCart(id, quantity) {
+  quantity = Number.isInteger(quantity) && quantity > 0 ? quantity : 1;
   const cart = getCart();
-  const existing = cart.find((item) => item.id === id);
-  if (existing) {
-    existing.qty += qty;
-  } else {
-    cart.push({ id, qty });
-  }
-  setCart(cart);
+  const existing = cart.find((line) => line.id === id);
+  if (existing) existing.quantity += quantity;
+  else cart.push({ id, quantity });
+  saveCart(cart);
+  return cart;
 }
 
-function updateCartQty(id, qty) {
+function setCartQuantity(id, quantity) {
   let cart = getCart();
-  if (qty <= 0) {
-    cart = cart.filter((item) => item.id !== id);
+  if (quantity <= 0) {
+    cart = cart.filter((line) => line.id !== id);
   } else {
-    const existing = cart.find((item) => item.id === id);
-    if (existing) existing.qty = qty;
+    const existing = cart.find((line) => line.id === id);
+    if (existing) existing.quantity = quantity;
+    else cart.push({ id, quantity });
   }
-  setCart(cart);
+  saveCart(cart);
+  return cart;
 }
 
 function removeFromCart(id) {
-  updateCartQty(id, 0);
+  return setCartQuantity(id, 0);
 }
 
 function clearCart() {
-  setCart([]);
+  saveCart([]);
 }
 
-function renderCartBadge() {
-  const count = cartCount();
+function cartItemCount() {
+  return getCart().reduce((sum, line) => sum + line.quantity, 0);
+}
+
+function updateCartBadge() {
+  const count = cartItemCount();
   document.querySelectorAll("[data-cart-count]").forEach((el) => {
-    el.textContent = String(count);
+    el.textContent = count > 0 ? String(count) : "";
+    el.hidden = count === 0;
   });
   document.querySelectorAll("[data-cart-link]").forEach((el) => {
-    el.style.display = ""; // cart link always visible, count just shows 0
+    el.textContent = count > 0 ? `Cart (${count})` : "Cart";
   });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   applyBranding();
-  renderCartBadge();
+  updateCartBadge();
 });

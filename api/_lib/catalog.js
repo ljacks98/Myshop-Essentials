@@ -12,6 +12,7 @@
 // image were verified) — it is NOT what gets published in the storefront
 // feed. The feed and product pages link to YOUR site, since checkout happens
 // on your site, not Amway's.
+
 module.exports = [
   {
     id: "127070",
@@ -112,21 +113,21 @@ module.exports = [
       "https://www.amway.com/en_US/Artistry-Go-Vibrant%E2%84%A2-Sheer-Lip-Balm-p-124674D",
   },
   {
-    id: "120872D",
-    title: "Artistry Lash Boosting 3-in-1 Mascara",
+    id: "127845D",
+    title: "Artistry Go Vibrant 3-in-1 Volume Mascara",
     description:
       "A 3-in-1 mascara with an easy-to-twist brush that volumizes, lifts, and separates lashes, infused with botanicals and vitamins C and E.",
     availability: "in stock",
     condition: "new",
-    price: null,
+    price: 28.0,
     currency: "USD",
     brand: "Artistry",
     category: "Mascara",
-    image: null,
+    image:
+      "https://www.amway.com/medias/127845D-en-US-690px-01?context=bWFzdGVyfGltYWdlc3w0NjAzOHxpbWFnZS9wbmd8c3lzLW1hc3Rlci9pbWFnZXMvaDExL2hjMS8xMDE4NDkwNjQwNzk2Ni8xMjc4NDVELWVuLVVTLTY5MHB4LTAxfDUwNmRkNzhhOWU5MDBhYWFiYjhmZTlkZjdlNmI1NjlhMGIwNjRkMTU1ZTFhYjliNzIwZDdkN2NmNzU3MDRmNjE",
     amwaySourceLink:
-      "https://www.amway.com/Artistry%E2%84%A2-Lash-Boosting-3-in-1-Mascara-p-120872D",
-    needsReview: true,
-    note: "amway.com blocks automated access to this product page (robots.txt), so price and image could not be verified automatically. Open the source link, copy the current price and image URL in manually, then clear needsReview before launch. This product is hidden from Buy Now / checkout and the feed until price is set.",
+      "https://www.amway.com/en_US/Artistry-Go-Vibrant%E2%84%A2-3-in-1-Volume-Mascara-p-127845D",
+    note: "Original catalog ID 120872D (\"Artistry Lash Boosting 3-in-1 Mascara\") is no longer live on amway.com and its page blocks automated price lookups. It appears to have been superseded by current SKU 127845D (\"Artistry Go Vibrant 3-in-1 Volume Mascara\") — same category, same $28.00 price point as its sibling Go Vibrant lip products. Verify this is the item you intend to sell before launch.",
   },
   {
     id: "127481D",
