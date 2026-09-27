@@ -178,5 +178,65 @@
     "category": "Vitamins & Supplements",
     "availability": "in stock",
     "buyable": true
+  },
+  {
+    "id": "XS-ELITE-001",
+    "title": "XS™ Elite + Focus Energy Drink – Peach Mango",
+    "description": "A premium energy drink delivering positive energy from 114 mg of naturally sourced caffeine (from green coffee beans) per 12 oz can, plus a mega-dose of B vitamins, rhodiola rosea, vitamin C, and a 520 mg electrolyte blend. Sugar-free, sweetened with stevia, 15 calories per can.",
+    "price": 50.75,
+    "currency": "USD",
+    "image": "https://www.amway.com/medias/266673-en-US-690px-01?context=bWFzdGVyfGltYWdlc3wyMjM4ODR8aW1hZ2UvcG5nfHN5cy1tYXN0ZXIvaW1hZ2VzL2g0Ny9oMzkvMTAyMzAwMjMxNTk4MzgvMjY2NjczLWVuLVVTLTY5MHB4LTAxfGM0ZTRjNmVhMGRjYzUyNzc3ZDcwMDFlOTRiYzRmOTcxZDFhYjE2NzU4MGNhYzcyNzk4YTkyZTRmNzZjZWIxNjA",
+    "brand": "XS",
+    "category": "Energy Drinks",
+    "availability": "in stock",
+    "buyable": true
+  },
+  {
+    "id": "ART-LIP-102",
+    "title": "Artistry Go Vibrant™ Light Up Liquid Lip Glow - Kiss Me Cranberry 103",
+    "description": "Liquid lip color with a glowy, glossy finish and 10-hour wear. Features a built-in LED light and mirror for easy application anywhere. Same Go Vibrant Light Up formula as the Desert Rose shade, in a cranberry-red tone.",
+    "price": 28.25,
+    "currency": "USD",
+    "image": "https://www.amway.com/medias/127482D-en-US-690px-01?context=bWFzdGVyfGltYWdlc3w4MDY4NnxpbWFnZS9wbmd8c3lzLW1hc3Rlci9pbWFnZXMvaDBmL2gyYi85ODgwNDYyOTUwNDMwLzEyNzQ4MkQtZW4tVVMtNjkwcHgtMDF8YTJhOWJkZDQ5YjZkOGYzYzA1N2VhMjVjNTBmNTdmY2ZlYjU1ODBmMjE2MzRhYzhkZjk0YWQ0MWRiMThhYjgwOQ",
+    "brand": "Artistry",
+    "category": "Lip Gloss",
+    "availability": "in stock",
+    "buyable": true
+  },
+  {
+    "id": "GLST-TP-200G",
+    "title": "Glister™ Travel Size Multi-Action Toothpaste, 6-pack",
+    "description": "Six 50g travel-size tubes of fluoride toothpaste that clean teeth and prevent cavities, with Nutrilite-certified peppermint for fresh breath. Formulated without parabens, alcohol, peroxide, sugar, or animal-derived ingredients; Kosher certified.",
+    "price": 24.75,
+    "currency": "USD",
+    "image": "https://www.amway.com/medias/126001-en-US-690px-01?context=bWFzdGVyfGltYWdlc3wzMzkxMHxpbWFnZS9wbmd8c3lzLW1hc3Rlci9pbWFnZXMvaDBmL2g1Mi85NTE5MTUyMzk4MzY2LzEyNjAwMS1lbi1VUy02OTBweC0wMXxiMWI2ZTIzZmFlYjg5NDY0MjNmOGNjZjZiYTMyYWU5OWQwYjA4NmI5OTJiYTE4YTJmMGY3MGVjMWM5MzQwYjYw",
+    "brand": "Glister",
+    "category": "Toothpaste",
+    "availability": "in stock",
+    "buyable": true
+  },
+  {
+    "id": "ART-MAS-3IN1",
+    "title": "Artistry Studio™ Glow-up Solution Bundle",
+    "description": "A 3-step skincare bundle for oily, acne-prone skin: Glow Boss Cleanser + Exfoliator, Rosé All Day Anti-Acne Toner + Pore Refresher (with salicylic acid), and My Main Squeeze Moisturizer. Alcohol-free, non-comedogenic, dermatologist-tested, and vegan.",
+    "price": 81,
+    "currency": "USD",
+    "image": "https://www.amway.com/medias/266672-en-US-690px-01?context=bWFzdGVyfGltYWdlc3wzMjEyODV8aW1hZ2UvcG5nfHN5cy1tYXN0ZXIvaW1hZ2VzL2g1OC9oNjkvMTAxNjUxODA1MzA3MTgvMjY2NjcyLWVuLVVTLTY5MHB4LTAxfDkxYjhhMDFkNDg0MjY1ZmI1YjY1YTNlYzllYzY4YjIxZDhmZWZiODQwMjk1ODhjYjVjY2E5NTU1MGJjYzhlY2Y",
+    "brand": "Artistry",
+    "category": "Skincare",
+    "availability": "in stock",
+    "buyable": true
+  },
+  {
+    "id": "XS-CWATER-SW",
+    "title": "XS™ CocoWater Hydration Drink Mix – Pineapple/Coconut",
+    "description": "Hydration drink mix in 12 packets, with coconut water concentrate, B vitamins, and antioxidant vitamins A, C, and E in a pineapple-coconut flavor. Caffeine-free, no artificial flavors or colors, gluten-free. 80 calories and 600 mg potassium per packet.",
+    "price": 33.75,
+    "currency": "USD",
+    "image": "https://www.amway.com/medias/110631-en-US-690px-01?context=bWFzdGVyfGltYWdlc3w3NjUwN3xpbWFnZS9wbmd8aW1hZ2VzL2gwZi9oMDkvOTM1NTE5MTc0NjU5MC5wbmd8OGNkYmY1MTE3NmMxMWYzNGU2NGE0MDlmNWY5NmQzMzFmNWRlYzY2Nzk2ODNlMzE0YTc2NWQzMzBhMDVlZWNlZQ",
+    "brand": "XS",
+    "category": "Coconut Water",
+    "availability": "in stock",
+    "buyable": true
   }
 ]
