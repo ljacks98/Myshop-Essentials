@@ -12,7 +12,7 @@
 // image were verified) — it is NOT what gets published in the storefront
 // feed. The feed and product pages link to YOUR site, since checkout happens
 // on your site, not Amway's.
-
+ 
 module.exports = [
   {
     id: "127070",
@@ -256,5 +256,94 @@ module.exports = [
       "https://www.amway.com/medias/107846-en-US-690px-01?context=bWFzdGVyfGltYWdlc3w1NjYzNHxpbWFnZS9wbmd8aW1hZ2VzL2gzYS9oZjgvOTM1NTE5MTI4NzgzOC5wbmd8ZWMzMTNmNDkzYjExNjk0NWYzMjY1NjkzNGFhZWQ5ODAyYjRmNDgxZGU3ODhhYzE3OTNkNGRhNjJiZTNkMThlMw",
     amwaySourceLink:
       "https://www.amway.com/en_US/XS%E2%84%A2-Energy-%2B-Focus-Dietary-Supplement---30-Tablets-p-107846",
+  },
+  // ---------------------------------------------------------------------
+  // Added 2026-09-27 — new products Laila added directly in Meta Commerce
+  // Manager that had no matching entry on the website yet (this is why
+  // Instagram checkout was failing for them). IDs below are kept identical
+  // to the Content IDs already showing "Eligible" in Commerce Manager, so
+  // nothing needs to change on the Meta side — the website just needs to
+  // recognize them now.
+  // ---------------------------------------------------------------------
+  {
+    id: "XS-ELITE-001",
+    title: "XS™ Elite + Focus Energy Drink – Peach Mango",
+    description:
+      "A premium energy drink delivering positive energy from 114 mg of naturally sourced caffeine (from green coffee beans) per 12 oz can, plus a mega-dose of B vitamins, rhodiola rosea, vitamin C, and a 520 mg electrolyte blend. Sugar-free, sweetened with stevia, 15 calories per can.",
+    availability: "in stock",
+    condition: "new",
+    price: 50.75,
+    currency: "USD",
+    brand: "XS",
+    category: "Energy Drinks",
+    image:
+      "https://www.amway.com/medias/266673-en-US-690px-01?context=bWFzdGVyfGltYWdlc3wyMjM4ODR8aW1hZ2UvcG5nfHN5cy1tYXN0ZXIvaW1hZ2VzL2g0Ny9oMzkvMTAyMzAwMjMxNTk4MzgvMjY2NjczLWVuLVVTLTY5MHB4LTAxfGM0ZTRjNmVhMGRjYzUyNzc3ZDcwMDFlOTRiYzRmOTcxZDFhYjE2NzU4MGNhYzcyNzk4YTkyZTRmNzZjZWIxNjA",
+    amwaySourceLink:
+      "https://www.amway.com/en_US/XS%E2%84%A2-Elite-+-Focus-Energy-Drink-%E2%80%93-Peach-Mango--p-266673",
+    note: "Current live Amway SKU for this product is 266673 — id kept as XS-ELITE-001 to match the Content ID already Eligible in Commerce Manager.",
+  },
+  {
+    id: "ART-LIP-102",
+    title: "Artistry Go Vibrant™ Light Up Liquid Lip Glow - Kiss Me Cranberry 103",
+    description:
+      "Liquid lip color with a glowy, glossy finish and 10-hour wear. Features a built-in LED light and mirror for easy application anywhere. Same Go Vibrant Light Up formula as the Desert Rose shade, in a cranberry-red tone.",
+    availability: "in stock",
+    condition: "new",
+    price: 28.25,
+    currency: "USD",
+    brand: "Artistry",
+    category: "Lip Gloss",
+    image:
+      "https://www.amway.com/medias/127482D-en-US-690px-01?context=bWFzdGVyfGltYWdlc3w4MDY4NnxpbWFnZS9wbmd8c3lzLW1hc3Rlci9pbWFnZXMvaDBmL2gyYi85ODgwNDYyOTUwNDMwLzEyNzQ4MkQtZW4tVVMtNjkwcHgtMDF8YTJhOWJkZDQ5YjZkOGYzYzA1N2VhMjVjNTBmNTdmY2ZlYjU1ODBmMjE2MzRhYzhkZjk0YWQ0MWRiMThhYjgwOQ",
+    amwaySourceLink:
+      "https://www.amway.com/en_US/Artistry-Go-Vibrant%E2%84%A2-Light-Up-Liquid-Lip-Glow---Kiss-Me-Cranberry-103-p-127482D",
+  },
+  {
+    id: "GLST-TP-200G",
+    title: "Glister™ Travel Size Multi-Action Toothpaste, 6-pack",
+    description:
+      "Six 50g travel-size tubes of fluoride toothpaste that clean teeth and prevent cavities, with Nutrilite-certified peppermint for fresh breath. Formulated without parabens, alcohol, peroxide, sugar, or animal-derived ingredients; Kosher certified.",
+    availability: "in stock",
+    condition: "new",
+    price: 24.75,
+    currency: "USD",
+    brand: "Glister",
+    category: "Toothpaste",
+    image:
+      "https://www.amway.com/medias/126001-en-US-690px-01?context=bWFzdGVyfGltYWdlc3wzMzkxMHxpbWFnZS9wbmd8c3lzLW1hc3Rlci9pbWFnZXMvaDBmL2g1Mi85NTE5MTUyMzk4MzY2LzEyNjAwMS1lbi1VUy02OTBweC0wMXxiMWI2ZTIzZmFlYjg5NDY0MjNmOGNjZjZiYTMyYWU5OWQwYjA4NmI5OTJiYTE4YTJmMGY3MGVjMWM5MzQwYjYw",
+    amwaySourceLink:
+      "https://www.amway.com/en_US/Glister%E2%84%A2-Travel-Size-Multi-Action-Toothpaste,-6-pack-p-126001",
+  },
+  {
+    id: "ART-MAS-3IN1",
+    title: "Artistry Studio™ Glow-up Solution Bundle",
+    description:
+      "A 3-step skincare bundle for oily, acne-prone skin: Glow Boss Cleanser + Exfoliator, Rosé All Day Anti-Acne Toner + Pore Refresher (with salicylic acid), and My Main Squeeze Moisturizer. Alcohol-free, non-comedogenic, dermatologist-tested, and vegan.",
+    availability: "in stock",
+    condition: "new",
+    price: 81.0,
+    currency: "USD",
+    brand: "Artistry",
+    category: "Skincare",
+    image:
+      "https://www.amway.com/medias/266672-en-US-690px-01?context=bWFzdGVyfGltYWdlc3wzMjEyODV8aW1hZ2UvcG5nfHN5cy1tYXN0ZXIvaW1hZ2VzL2g1OC9oNjkvMTAxNjUxODA1MzA3MTgvMjY2NjcyLWVuLVVTLTY5MHB4LTAxfDkxYjhhMDFkNDg0MjY1ZmI1YjY1YTNlYzllYzY4YjIxZDhmZWZiODQwMjk1ODhjYjVjY2E5NTU1MGJjYzhlY2Y",
+    amwaySourceLink:
+      "https://www.amway.com/en_US/Artistry-Studio%E2%84%A2-Glow-up-Solution-Bundle-p-266672",
+  },
+  {
+    id: "XS-CWATER-SW",
+    title: "XS™ CocoWater Hydration Drink Mix – Pineapple/Coconut",
+    description:
+      "Hydration drink mix in 12 packets, with coconut water concentrate, B vitamins, and antioxidant vitamins A, C, and E in a pineapple-coconut flavor. Caffeine-free, no artificial flavors or colors, gluten-free. 80 calories and 600 mg potassium per packet.",
+    availability: "in stock",
+    condition: "new",
+    price: 33.75,
+    currency: "USD",
+    brand: "XS",
+    category: "Coconut Water",
+    image:
+      "https://www.amway.com/medias/110631-en-US-690px-01?context=bWFzdGVyfGltYWdlc3w3NjUwN3xpbWFnZS9wbmd8aW1hZ2VzL2gwZi9oMDkvOTM1NTE5MTc0NjU5MC5wbmd8OGNkYmY1MTE3NmMxMWYzNGU2NGE0MDlmNWY5NmQzMzFmNWRlYzY2Nzk2ODNlMzE0YTc2NWQzMzBhMDVlZWNlZQ",
+    amwaySourceLink:
+      "https://www.amway.com/en_US/XS%E2%84%A2-CocoWater-Hydration-Drink-Mix-%E2%80%93-Pineapple-Coconut-p-110631",
   },
 ];
