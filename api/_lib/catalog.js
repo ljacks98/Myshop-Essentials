@@ -119,7 +119,7 @@ module.exports = [
       "A 3-in-1 mascara with an easy-to-twist brush that volumizes, lifts, and separates lashes, infused with botanicals and vitamins C and E.",
     availability: "in stock",
     condition: "new",
-    price: 28.0,
+    price: 33.75,
     currency: "USD",
     brand: "Artistry",
     category: "Mascara",
@@ -345,5 +345,21 @@ module.exports = [
       "https://www.amway.com/medias/110631-en-US-690px-01?context=bWFzdGVyfGltYWdlc3w3NjUwN3xpbWFnZS9wbmd8aW1hZ2VzL2gwZi9oMDkvOTM1NTE5MTc0NjU5MC5wbmd8OGNkYmY1MTE3NmMxMWYzNGU2NGE0MDlmNWY5NmQzMzFmNWRlYzY2Nzk2ODNlMzE0YTc2NWQzMzBhMDVlZWNlZQ",
     amwaySourceLink:
       "https://www.amway.com/en_US/XS%E2%84%A2-CocoWater-Hydration-Drink-Mix-%E2%80%93-Pineapple-Coconut-p-110631",
+  },
+  {
+    id: "125890",
+    title: "g&h™ Nourish Body Wash",
+    description:
+      "A creamy body wash that gently cleanses and nourishes, leaving skin feeling smooth and conditioned. Formulated with shea butter for 48 hours of moisturization. Vegan, biodegradable formula. 400 mL.",
+    availability: "in stock",
+    condition: "new",
+    price: 17.25,
+    currency: "USD",
+    brand: "g&h",
+    category: "Body Wash",
+    image:
+      "https://www.amway.com/medias/125890-en-US-690px-01?context=bWFzdGVyfGltYWdlc3w0ODU3OXxpbWFnZS9wbmd8c3lzLW1hc3Rlci9pbWFnZXMvaGRhL2g4OS85NTY3MDk3ODQ3ODM4LzEyNTg5MC1lbi1VUy02OTBweC0wMXxjZWU5ODk4Nzg1NGQ4NDg1Zjk5NWQ3ZjkzNzU2YjBlNTYyMDYwNTY4ZGFhZTUwNWVjZTQwYjM3ZDU0MzhhZWFk",
+    amwaySourceLink:
+      "https://www.amway.com/en_US/g%26h%E2%84%A2-Nourish-Body-Wash-p-125890",
   },
 ];
