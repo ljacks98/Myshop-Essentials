@@ -35,6 +35,10 @@
   // CONTENT_ID must match an `id` in public/data/products.json (the same
   // ids used in feed.csv). Falls back to the single-item ?id=X&quantity=N
   // format used by this site's own Buy Now buttons.
+  // Old product ids that should still open the current product.
+  // 127845D = the mascara's previous id (Meta Commerce Manager uses 120872D).
+  const ID_ALIASES = { "127845D": "120872D" };
+
   function parseCart() {
     const productsParam = getQueryParam("products");
     if (productsParam) {
@@ -96,7 +100,7 @@
       const matched = [];
       const notFound = [];
       requested.forEach((line) => {
-        const product = products.find((p) => p.id === line.id);
+        const product = products.find((p) => p.id === (ID_ALIASES[line.id] || line.id));
         if (product) matched.push({ product, quantity: line.quantity });
         else notFound.push(line.id);
       });
