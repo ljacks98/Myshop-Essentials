@@ -75,7 +75,7 @@
     "id": "127845D",
     "title": "Artistry Go Vibrant 3-in-1 Volume Mascara",
     "description": "A 3-in-1 mascara with an easy-to-twist brush that volumizes, lifts, and separates lashes, infused with botanicals and vitamins C and E.",
-    "price": 28,
+    "price": 33.75,
     "currency": "USD",
     "image": "https://www.amway.com/medias/127845D-en-US-690px-01?context=bWFzdGVyfGltYWdlc3w0NjAzOHxpbWFnZS9wbmd8c3lzLW1hc3Rlci9pbWFnZXMvaDExL2hjMS8xMDE4NDkwNjQwNzk2Ni8xMjc4NDVELWVuLVVTLTY5MHB4LTAxfDUwNmRkNzhhOWU5MDBhYWFiYjhmZTlkZjdlNmI1NjlhMGIwNjRkMTU1ZTFhYjliNzIwZDdkN2NmNzU3MDRmNjE",
     "brand": "Artistry",
@@ -236,6 +236,18 @@
     "image": "https://www.amway.com/medias/110631-en-US-690px-01?context=bWFzdGVyfGltYWdlc3w3NjUwN3xpbWFnZS9wbmd8aW1hZ2VzL2gwZi9oMDkvOTM1NTE5MTc0NjU5MC5wbmd8OGNkYmY1MTE3NmMxMWYzNGU2NGE0MDlmNWY5NmQzMzFmNWRlYzY2Nzk2ODNlMzE0YTc2NWQzMzBhMDVlZWNlZQ",
     "brand": "XS",
     "category": "Coconut Water",
+    "availability": "in stock",
+    "buyable": true
+  },
+  {
+    "id": "125890",
+    "title": "g&h™ Nourish Body Wash",
+    "description": "A creamy body wash that gently cleanses and nourishes, leaving skin feeling smooth and conditioned. Formulated with shea butter for 48 hours of moisturization. Vegan, biodegradable formula. 400 mL.",
+    "price": 17.25,
+    "currency": "USD",
+    "image": "https://www.amway.com/medias/125890-en-US-690px-01?context=bWFzdGVyfGltYWdlc3w0ODU3OXxpbWFnZS9wbmd8c3lzLW1hc3Rlci9pbWFnZXMvaGRhL2g4OS85NTY3MDk3ODQ3ODM4LzEyNTg5MC1lbi1VUy02OTBweC0wMXxjZWU5ODk4Nzg1NGQ4NDg1Zjk5NWQ3ZjkzNzU2YjBlNTYyMDYwNTY4ZGFhZTUwNWVjZTQwYjM3ZDU0MzhhZWFk",
+    "brand": "g&h",
+    "category": "Body Wash",
     "availability": "in stock",
     "buyable": true
   }
