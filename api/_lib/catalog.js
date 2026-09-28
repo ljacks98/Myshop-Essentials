@@ -113,7 +113,7 @@ module.exports = [
       "https://www.amway.com/en_US/Artistry-Go-Vibrant%E2%84%A2-Sheer-Lip-Balm-p-124674D",
   },
   {
-    id: "120872D",
+    id: "127845D",
     title: "Artistry Go Vibrant 3-in-1 Volume Mascara",
     description:
       "A 3-in-1 mascara with an easy-to-twist brush that volumizes, lifts, and separates lashes, infused with botanicals and vitamins C and E.",
